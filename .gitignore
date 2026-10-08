@@ -1,0 +1,14 @@
+# upstream clone (separate repo)
+KytyPS5/
+
+# private exploit artifacts - never publish
+poc/
+cve-1-poc/
+
+# official release binaries (not ours to redistribute)
+*.zip
+
+# local noise
+__pycache__/
+*.pyc
+Thumbs.db
